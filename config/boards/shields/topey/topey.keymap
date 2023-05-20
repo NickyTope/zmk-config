@@ -23,7 +23,7 @@
         combo_fat_arrow {
             timeout-ms = <50>;
             key-positions = <32 33>;
-            bindings = <&macro_tap &kp EQUAL &kp GT>;
+            bindings = <&kp EQUAL &kp GT>;
         };
     };
 };
