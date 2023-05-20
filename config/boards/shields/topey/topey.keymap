@@ -15,6 +15,16 @@
             key-positions = <21 22>;
             bindings = <&kp RET>;
         };
+        combo_tab {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            bindings = <&kp TAB>;
+        };
+        combo_fat_arrow {
+            timeout-ms = <50>;
+            key-positions = <32 33>;
+            bindings = <&macro_tap &kp EQUAL &kp GT>;
+        };
     };
 };
 
@@ -33,7 +43,7 @@
 
         arr_layer {
             bindings = <
-            &trans &trans &trans &kp C_VOL_UP &kp C_VOL_DN &trans         &trans &trans &trans &kp HOME &kp END &trans
+            &trans &trans &trans &kp C_VOL_UP &kp C_VOL_DN &trans           &trans &kp HOME &trans &kp END &trans &trans
             &trans &trans &trans &trans &trans &trans                       &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
             &trans &trans &trans &trans &trans &trans                       &trans &kp PG_DN &kp PG_UP &trans &trans &trans
                                  &trans &trans &trans                       &trans &trans &trans
