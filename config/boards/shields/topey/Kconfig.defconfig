@@ -1,0 +1,16 @@
+if SHIELD_TOPEY_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Topey"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_TOPEY_LEFT || SHIELD_TOPEY_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
