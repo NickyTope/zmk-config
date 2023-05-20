@@ -44,7 +44,7 @@
 
         sym_layer {
             bindings = <
-            &kp GRAVE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCN            &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &kp &trans
+            &kp GRAVE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT           &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &trans
             &trans &kp GRAVE &trans &trans &trans &trans                    &trans &kp LBKT &kp RBKT &kp PIPE &kp UNDER &kp PLUS
             &trans &trans &trans &trans &trans &trans                       &trans &kp LPAR &kp RPAR &trans &trans &trans
                                  &trans &trans &trans                       &trans &trans &trans
