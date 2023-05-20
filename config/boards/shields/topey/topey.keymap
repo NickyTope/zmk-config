@@ -7,10 +7,6 @@
 #define SYM 3
 #define SCR 4
 
-&mt {
-    tapping-term-md = <400>;
-};
-
 / {
     keymap {
         compatible = "zmk,keymap";
