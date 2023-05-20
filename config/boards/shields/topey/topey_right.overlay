@@ -1,0 +1,16 @@
+#include "topey.dtsi"
+
+&default_transform { // The matrix transform for this board is 6 columns over because the left half is 6 columns wide according to the matrix.
+    col-offset = <6>;
+};
+
+&kscan0 {
+    col-gpios
+        = <&gpio0 24 GPIO_ACTIVE_HIGH>
+         , <&gpio0 22 GPIO_ACTIVE_HIGH>
+         , <&gpio1 0 GPIO_ACTIVE_HIGH>
+         , <&gpio0 11 GPIO_ACTIVE_HIGH>
+         , <&gpio1 4 GPIO_ACTIVE_HIGH>
+        , <&gpio1 6 GPIO_ACTIVE_HIGH>
+        ;
+};
