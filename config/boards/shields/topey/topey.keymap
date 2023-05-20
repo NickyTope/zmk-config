@@ -26,7 +26,7 @@
 
         arr_layer {
             bindings = <
-            &trans &trans &trans &kp K_VOL_UP &kp K_VOL_DOWN &trans         &trans &trans &trans &kp HOME &kp END &trans
+            &trans &trans &trans &kp C_VOL_UP &kp C_VOL_DN &trans         &trans &trans &trans &kp HOME &kp END &trans
             &trans &trans &trans &trans &trans &trans                       &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
             &trans &trans &trans &trans &trans &trans                       &trans &kp PG_DN &kp PG_UP &trans &trans &trans
                                  &trans &trans &trans                       &trans &trans &trans
