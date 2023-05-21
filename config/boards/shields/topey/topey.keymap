@@ -45,7 +45,7 @@
                 , <&macro_release &mo NUM &kp RGUI>
                 ;
             #binding-cells = <0>;
-        }
+        };
     };
 };
 
