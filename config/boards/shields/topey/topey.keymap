@@ -35,8 +35,8 @@
             compatible = "zmk,behavior-macro";
             tap-ms = <40>;
             bindings = <&kp EQUAL &kp GT>;
-        }
-    }
+        };
+    };
 };
 
 / {
