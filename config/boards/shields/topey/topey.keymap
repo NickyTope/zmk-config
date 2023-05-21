@@ -23,9 +23,20 @@
         combo_fat_arrow {
             timeout-ms = <50>;
             key-positions = <32 33>;
-            bindings = <&kp EQUAL>, <&kp GT>;
+            bindings = <&fat_arrow>;
         };
     };
+};
+
+/ {
+    macros {
+        fat_arrow: fat_arrow {
+            label = "=>";
+            compatible = "zmk,behavior-macro";
+            tap-ms = <40>;
+            bindings = <&kp EQUAL &kp GT>;
+        }
+    }
 };
 
 / {
