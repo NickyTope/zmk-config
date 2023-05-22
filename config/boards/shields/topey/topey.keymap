@@ -11,6 +11,16 @@
 };
 
 / {
+    behaviors {
+        scaps: scaps {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Shift Caps";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHIFT>, <&caps_word>;
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
         combo_esc {
@@ -29,9 +39,7 @@
             bindings = <&fat_arrow>;
         };
     };
-};
 
-/ {
     macros {
         fat_arrow: fat_arrow {
             label = "=>";
@@ -51,9 +59,7 @@
             #binding-cells = <0>;
         };
     };
-};
 
-/ {
     keymap {
         compatible = "zmk,keymap";
 
@@ -61,7 +67,7 @@
             bindings = <
             &kp ESC &kp Q &kp W &kp E &kp R &kp T                        &kp Y     &kp U     &kp I     &kp O     &kp P    &kp BSPC
             &mt LCTRL BSPC &kp A &kp S &kp D &kp F &kp G                 &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp SQT
-            &mt LSHIFT &caps_word &kp Z &kp X &kp C &kp V &kp B                     &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RET
+            &scaps &kp Z &kp X &kp C &kp V &kp B                     &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RET
                             &kp LGUI &lt SYM RET &lt NUM SPACE   &kp LALT &lt ARR SPACE &num_gui
         >;
         };
