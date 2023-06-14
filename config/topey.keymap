@@ -62,7 +62,7 @@
             bindings = <&kp RG(U)>;
         };
 
-        new_combo {
+        combo_cw {
             bindings = <&caps_word 0>;
             key-positions = <16 19>;
         };
