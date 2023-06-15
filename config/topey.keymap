@@ -13,15 +13,6 @@
 
 / {
     behaviors {
-        scaps: shift-caps {
-            compatible = "zmk,behavior-tap-dance";
-            label = "Shift Caps";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings =
-                <&kp LSHIFT>,
-                <&caps_word>;
-        };
         qt: quick-tap {
             compatible = "zmk,behavior-hold-tap";
             label = "Quick Tap";
@@ -97,9 +88,9 @@
         default_layer {
             bindings = <
  &kp ESC    &kp Q    &kp W    &kp E &kp R &kp T &kp Y &kp U &kp I   &kp O  &kp P     &kp BSPC
- &qt LCTRL BSPC &qt LSHFT A &qt LCTRL S &qt LALT D &kp F &kp G &kp H &kp J &qt RALT K  &qt RCTRL L &qt RSHFT SEMI &mt RCTRL SQT
- &scaps     &kp Z    &kp X    &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH    &mt RSHFT RET
-               &mt LGUI DEL &lt SYM ESC &lt NUM BSPC  &kp RALT &lt ARR SPACE  &num_gui
+ &qt LCTRL BSPC &qt LSHFT A &qt LCTRL S &qt LALT D &qt LGUI F &kp G &kp H &qt RGUI J &qt RALT K  &qt RCTRL L &qt RSHFT SEMI &mt RCTRL SQT
+ &kp LSHFT  &kp Z    &kp X    &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH    &mt RSHFT RET
+               &mt LGUI DEL &lt SYM ESC &lt NUM BSPC  &qt RALT BSPC &lt ARR SPACE  &num_gui
             >;
         };
 
