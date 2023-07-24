@@ -47,12 +47,6 @@
             bindings = <&fat_arrow>;
         };
 
-        combo_gu {
-            timeout-ms = <50>;
-            key-positions = <4 7>;
-            bindings = <&kp RG(U)>;
-        };
-
         combo_cw {
             timeout-ms = <50>;
             bindings = <&caps_word 0>;
