@@ -1,5 +1,7 @@
 # Keyboard Layout
 
+![Skeletyl](./skeletyl.jpg)
+
 ## Home layer
 
 General rules in use here:
