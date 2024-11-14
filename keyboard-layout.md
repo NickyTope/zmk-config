@@ -9,12 +9,6 @@ General rules in use here:
 3. Give your thumbs something to do - each thumb has 3 keys to press!
 4. Give yourself time to adjust when making changes.
 
-On duplicate Bspc keys:
-
-- Top right is for aesthetics, I generally don't press it.
-- Far left is where I use it for the most, however it breaks the rule above.
-- Bottom left key with right thumb is where I would like to move to... these things take time to train your muscle memory.
-
 |       | Pinky | Ring | Middle | Index   |       |      | Index   | Middle | Ring | Pinky |       |
 | ----- | ----- | ---- | ------ | ------- | ----- | ---- | ------- | ------ | ---- | ----- | ----- |
 | Esc   | Q     | W    | E      | R       | T     | Y    | U       | I      | O    | P     | Bspc  |
@@ -26,7 +20,8 @@ On duplicate Bspc keys:
 ## Combo keys
 
 Frequently used key "chords"
-Caps word is like smart caps lock, it lets you TYPE-ONE-WORD in uppercase and auto swithces back.
+
+> Caps word is like smart caps lock, it lets you TYPE-ONE-WORD in uppercase and auto swithces back.
 
 | Key Combination | Action    |
 | --------------- | --------- |
