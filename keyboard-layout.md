@@ -96,10 +96,10 @@ The grave symbol is duplicated here to train me to not reach with pinky.
 Activates by pressing Space + Backspace combo (toggle).
 Mouse movement uses HJKL pattern on right hand home row, scrolling on bottom row.
 
-|     | Pinky | Ring | Middle | Index |     |     | Index       | Middle       | Ring        | Pinky        |     |
-| --- | ----- | ---- | ------ | ----- | --- | --- | ----------- | ------------ | ----------- | ------------ | --- |
-|     |       |      |        |       |     |     | Left Click  | Middle Click | Right Click |              |     |
-|     |       |      |        |       |     |     | Move Left   | Move Down    | Move Up     | Move Right   |     |
-|     |       |      |        |       |     |     | Scroll Left | Scroll Down  | Scroll Up   | Scroll Right |     |
+|     | Pinky | Ring        | Middle       | Index      |     |     | Index       | Middle       | Ring        | Pinky        |     |
+| --- | ----- | ----------- | ------------ | ---------- | --- | --- | ----------- | ------------ | ----------- | ------------ | --- |
+|     |       |             |              |            |     |     | Left Click  | Middle Click | Right Click |              |     |
+|     |       | Right Click | Middle Click | Left Click |     |     | Move Left   | Move Down    | Move Up     | Move Right   |     |
+|     |       |             |              |            |     |     | Scroll Left | Scroll Up    | Scroll Down | Scroll Right |     |
 
 ---
