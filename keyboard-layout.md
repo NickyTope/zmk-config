@@ -25,12 +25,13 @@ Frequently used key "chords"
 
 > Caps word is like smart caps lock, it lets you TYPE-ONE-WORD in uppercase and auto swithces back.
 
-| Key Combination | Action    |
-| --------------- | --------- |
-| D + F           | Tab       |
-| L + ;           | Enter     |
-| , + .           | =>        |
-| F + J           | Caps Word |
+| Key Combination | Action       |
+| --------------- | ------------ |
+| D + F           | Tab          |
+| L + ;           | Enter        |
+| , + .           | =>           |
+| F + J           | Caps Word    |
+| Space + Bspc    | Mouse Toggle |
 
 ## Home row modifiers | dual purpose keys
 
@@ -39,15 +40,15 @@ Each finger has dual purpose on it's home position, these are mirrored which mak
 Most of the thumb keys can be held to activate a different layer.
 e.g. The right thumb rests on the space key, you tap it to make space characters but holding it switches to the arrows layer.
 
-|         | Pinky | Ring | Middle | Index     |         |     | Index     | Middle | Ring | Pinky |         |
-| ------- | ----- | ---- | ------ | --------- | ------- | --- | --------- | ------ | ---- | ----- | ------- |
-|         |       |      |        |           |         |     |           |        |      |       |         |
-| `Ctrl`  | Shift | Ctrl | Alt    | Super     |         |     | Super     | Alt    | Ctrl | Shift | `Ctrl`  |
-| `Shift` |       |      |        |           |         |     |           |        |      |       | `Shift` |
-|         |       |      |        | [ Thumb ] |         |     | [ Thumb ] |        |      |       |         |
-|         |       |      | Super  | Symbols   | Numbers | Alt | Arrows    | Menu   |      |       |         |
+|         | Pinky     | Ring | Middle | Index   |         |     | Index   | Middle | Ring | Pinky     |         |
+| ------- | --------- | ---- | ------ | ------- | ------- | --- | ------- | ------ | ---- | --------- | ------- |
+|         |           |      |        |         |         |     |         |        |      |           |         |
+| `Ctrl`  | **Shift** | Ctrl | Alt    | Super   |         |     | Super   | Alt    | Ctrl | **Shift** | `Ctrl`  |
+| `Shift` |           |      |        |         |         |     |         |        |      |           | `Shift` |
+|         |           |      |        | [Thumb] |         |     | [Thumb] |        |      |           |         |
+|         |           |      | Super  | Symbols | Numbers | Alt | Arrows  | Menu   |      |           |         |
 
-The Menu key is a special bind that I use for switching desktops on my operating system, it is the same as holding Super on the Numbers layer.
+The Menu key is a special bind that activates Numbers + Super simultaneously (for desktop switching).
 `Menu + q` sends `Super + 1`
 
 ---
@@ -59,11 +60,11 @@ The Menu key is a special bind that I use for switching desktops on my operating
 Activates when right thumb holds the space key.
 Most of the left hand key presses here are not used much.
 
-|       | Pinky | Ring | Middle | Index  |        |     | Index | Middle  | Ring  | Pinky |       |
-| ----- | ----- | ---- | ------ | ------ | ------ | --- | ----- | ------- | ----- | ----- | ----- |
-| Reset |       |      | Vol Dn | Vol Up |        |     |       | Home    |       | End   | Reset |
-|       |       |      | Prev   | Next   | PPlay  |     | Left  | Down    | Up    | Right |       |
-|       | BT 1  | BT 2 | BT 3   |        | BT Clr |     |       | Pg Down | Pg Up |       |       |
+|            | Pinky | Ring | Middle | Index  |        |     | Index | Middle  | Ring  | Pinky |            |
+| ---------- | ----- | ---- | ------ | ------ | ------ | --- | ----- | ------- | ----- | ----- | ---------- |
+| Bootloader |       |      | Vol Dn | Vol Up |        |     |       | Home    |       | End   | Bootloader |
+|            |       |      | Prev   | Next   | Play   |     | Left  | Down    | Up    | Right |            |
+|            | BT 0  | BT 1 | BT 2   |        | BT Clr |     |       | Pg Down | Pg Up |       |            |
 
 ### Numbers Layer
 
@@ -74,8 +75,8 @@ The right hand home row has commonly used symbols on this row to compliment thei
 |     | Pinky | Ring | Middle | Index |     |     | Index | Middle | Ring | Pinky |     |
 | --- | ----- | ---- | ------ | ----- | --- | --- | ----- | ------ | ---- | ----- | --- |
 | ~   | 1     | 2    | 3      | 4     | 5   | 6   | 7     | 8      | 9    | 0     |     |
-|     | F1    | F2   | F3     | F4    | F5  | F6  | {     | }      | \    | -     | =   |
-|     | F7    | F8   | F9     | F10   | F10 | F12 | =>    |        |      |       |     |
+|     | F1    | F2   | F3     | F4    | F5  | F6  | [     | ]      | \    | -     | =   |
+|     | F7    | F8   | F9     | F10   | F11 | F12 | =>    |        |      |       |     |
 
 ### Symbols Layer
 
@@ -86,8 +87,19 @@ The grave symbol is duplicated here to train me to not reach with pinky.
 
 |     | Pinky | Ring | Middle | Index |     |     | Index | Middle | Ring | Pinky |     |
 | --- | ----- | ---- | ------ | ----- | --- | --- | ----- | ------ | ---- | ----- | --- |
-| `   | !     | @    | #      | $     | %   | ^   | &     | \      | (    | )     |     |
+| `   | !     | @    | #      | $     | %   | ^   | &     | \*     | (    | )     |     |
 |     | `     |      |        |       |     |     | [     | ]      | \|   | \_    | +   |
 |     |       |      |        |       |     |     | (     | )      |      |       |     |
+
+### Mouse Layer
+
+Activates by pressing Space + Backspace combo (toggle).
+Mouse movement uses HJKL pattern on right hand home row, scrolling on bottom row.
+
+|     | Pinky | Ring | Middle | Index |     |     | Index       | Middle       | Ring        | Pinky        |     |
+| --- | ----- | ---- | ------ | ----- | --- | --- | ----------- | ------------ | ----------- | ------------ | --- |
+|     |       |      |        |       |     |     | Left Click  | Middle Click | Right Click |              |     |
+|     |       |      |        |       |     |     | Move Left   | Move Down    | Move Up     | Move Right   |     |
+|     |       |      |        |       |     |     | Scroll Left | Scroll Down  | Scroll Up   | Scroll Right |     |
 
 ---
